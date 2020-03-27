@@ -14,6 +14,35 @@
 		204D440B242E6047003DCA67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204D4409242E6047003DCA67 /* LaunchScreen.storyboard */; };
 		204D4416242E6047003DCA67 /* StyleTransfer_iOS_TFliteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204D4415242E6047003DCA67 /* StyleTransfer_iOS_TFliteTests.swift */; };
 		204D4421242E6047003DCA67 /* StyleTransfer_iOS_TFliteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 204D4420242E6047003DCA67 /* StyleTransfer_iOS_TFliteUITests.swift */; };
+		20DBFEFA242E7C7B00C0410F /* styles_square_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DBFEF9242E7C7B00C0410F /* styles_square_thumb.jpg */; };
+		20DBFEFC242E7DD700C0410F /* StylePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DBFEFB242E7DD700C0410F /* StylePickerViewController.swift */; };
+		20DBFF17242E7E0E00C0410F /* style19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DBFEFD242E7E0D00C0410F /* style19.jpg */; };
+		20DBFF18242E7E0E00C0410F /* style22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DBFEFE242E7E0D00C0410F /* style22.jpg */; };
+		20DBFF19242E7E0E00C0410F /* style4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DBFEFF242E7E0D00C0410F /* style4.jpg */; };
+		20DBFF1A242E7E0E00C0410F /* style12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DBFF00242E7E0D00C0410F /* style12.jpg */; };
+		20DBFF1B242E7E0E00C0410F /* style18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DBFF01242E7E0D00C0410F /* style18.jpg */; };
+		20DBFF1C242E7E0E00C0410F /* style21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DBFF02242E7E0D00C0410F /* style21.jpg */; };
+		20DBFF1D242E7E0E00C0410F /* style2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DBFF03242E7E0D00C0410F /* style2.jpg */; };
+		20DBFF1E242E7E0E00C0410F /* style7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DBFF04242E7E0D00C0410F /* style7.jpg */; };
+		20DBFF1F242E7E0E00C0410F /* style20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DBFF05242E7E0D00C0410F /* style20.jpg */; };
+		20DBFF20242E7E0E00C0410F /* style9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DBFF06242E7E0D00C0410F /* style9.jpg */; };
+		20DBFF21242E7E0E00C0410F /* style1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DBFF07242E7E0D00C0410F /* style1.jpg */; };
+		20DBFF22242E7E0E00C0410F /* style25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DBFF08242E7E0D00C0410F /* style25.jpg */; };
+		20DBFF23242E7E0E00C0410F /* style23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DBFF09242E7E0D00C0410F /* style23.jpg */; };
+		20DBFF24242E7E0E00C0410F /* style8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DBFF0A242E7E0E00C0410F /* style8.jpg */; };
+		20DBFF25242E7E0E00C0410F /* style14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DBFF0B242E7E0E00C0410F /* style14.jpg */; };
+		20DBFF26242E7E0E00C0410F /* style0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DBFF0C242E7E0E00C0410F /* style0.jpg */; };
+		20DBFF27242E7E0E00C0410F /* style3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DBFF0D242E7E0E00C0410F /* style3.jpg */; };
+		20DBFF28242E7E0E00C0410F /* style17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DBFF0E242E7E0E00C0410F /* style17.jpg */; };
+		20DBFF29242E7E0E00C0410F /* style6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DBFF0F242E7E0E00C0410F /* style6.jpg */; };
+		20DBFF2A242E7E0E00C0410F /* style5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DBFF10242E7E0E00C0410F /* style5.jpg */; };
+		20DBFF2B242E7E0E00C0410F /* style24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DBFF11242E7E0E00C0410F /* style24.jpg */; };
+		20DBFF2C242E7E0E00C0410F /* style11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DBFF12242E7E0E00C0410F /* style11.jpg */; };
+		20DBFF2D242E7E0E00C0410F /* style15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DBFF13242E7E0E00C0410F /* style15.jpg */; };
+		20DBFF2E242E7E0E00C0410F /* style13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DBFF14242E7E0E00C0410F /* style13.jpg */; };
+		20DBFF2F242E7E0E00C0410F /* style10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DBFF15242E7E0E00C0410F /* style10.jpg */; };
+		20DBFF30242E7E0E00C0410F /* style16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DBFF16242E7E0E00C0410F /* style16.jpg */; };
+		20DBFF32242E7E8100C0410F /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DBFF31242E7E8100C0410F /* Style.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +76,35 @@
 		204D441C242E6047003DCA67 /* StyleTransfer-iOS-TFliteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StyleTransfer-iOS-TFliteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		204D4420242E6047003DCA67 /* StyleTransfer_iOS_TFliteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleTransfer_iOS_TFliteUITests.swift; sourceTree = "<group>"; };
 		204D4422242E6047003DCA67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20DBFEF9242E7C7B00C0410F /* styles_square_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = styles_square_thumb.jpg; sourceTree = "<group>"; };
+		20DBFEFB242E7DD700C0410F /* StylePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylePickerViewController.swift; sourceTree = "<group>"; };
+		20DBFEFD242E7E0D00C0410F /* style19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = style19.jpg; sourceTree = "<group>"; };
+		20DBFEFE242E7E0D00C0410F /* style22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = style22.jpg; sourceTree = "<group>"; };
+		20DBFEFF242E7E0D00C0410F /* style4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = style4.jpg; sourceTree = "<group>"; };
+		20DBFF00242E7E0D00C0410F /* style12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = style12.jpg; sourceTree = "<group>"; };
+		20DBFF01242E7E0D00C0410F /* style18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = style18.jpg; sourceTree = "<group>"; };
+		20DBFF02242E7E0D00C0410F /* style21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = style21.jpg; sourceTree = "<group>"; };
+		20DBFF03242E7E0D00C0410F /* style2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = style2.jpg; sourceTree = "<group>"; };
+		20DBFF04242E7E0D00C0410F /* style7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = style7.jpg; sourceTree = "<group>"; };
+		20DBFF05242E7E0D00C0410F /* style20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = style20.jpg; sourceTree = "<group>"; };
+		20DBFF06242E7E0D00C0410F /* style9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = style9.jpg; sourceTree = "<group>"; };
+		20DBFF07242E7E0D00C0410F /* style1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = style1.jpg; sourceTree = "<group>"; };
+		20DBFF08242E7E0D00C0410F /* style25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = style25.jpg; sourceTree = "<group>"; };
+		20DBFF09242E7E0D00C0410F /* style23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = style23.jpg; sourceTree = "<group>"; };
+		20DBFF0A242E7E0E00C0410F /* style8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = style8.jpg; sourceTree = "<group>"; };
+		20DBFF0B242E7E0E00C0410F /* style14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = style14.jpg; sourceTree = "<group>"; };
+		20DBFF0C242E7E0E00C0410F /* style0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = style0.jpg; sourceTree = "<group>"; };
+		20DBFF0D242E7E0E00C0410F /* style3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = style3.jpg; sourceTree = "<group>"; };
+		20DBFF0E242E7E0E00C0410F /* style17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = style17.jpg; sourceTree = "<group>"; };
+		20DBFF0F242E7E0E00C0410F /* style6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = style6.jpg; sourceTree = "<group>"; };
+		20DBFF10242E7E0E00C0410F /* style5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = style5.jpg; sourceTree = "<group>"; };
+		20DBFF11242E7E0E00C0410F /* style24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = style24.jpg; sourceTree = "<group>"; };
+		20DBFF12242E7E0E00C0410F /* style11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = style11.jpg; sourceTree = "<group>"; };
+		20DBFF13242E7E0E00C0410F /* style15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = style15.jpg; sourceTree = "<group>"; };
+		20DBFF14242E7E0E00C0410F /* style13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = style13.jpg; sourceTree = "<group>"; };
+		20DBFF15242E7E0E00C0410F /* style10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = style10.jpg; sourceTree = "<group>"; };
+		20DBFF16242E7E0E00C0410F /* style16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = style16.jpg; sourceTree = "<group>"; };
+		20DBFF31242E7E8100C0410F /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +155,15 @@
 		204D43FF242E6046003DCA67 /* StyleTransfer-iOS-TFlite */ = {
 			isa = PBXGroup;
 			children = (
+				20DBFEF8242E7C6300C0410F /* styles */,
 				204D4400242E6046003DCA67 /* AppDelegate.swift */,
 				204D4402242E6046003DCA67 /* ViewController.swift */,
 				204D4404242E6046003DCA67 /* Main.storyboard */,
 				204D4407242E6047003DCA67 /* Assets.xcassets */,
 				204D4409242E6047003DCA67 /* LaunchScreen.storyboard */,
 				204D440C242E6047003DCA67 /* Info.plist */,
+				20DBFEFB242E7DD700C0410F /* StylePickerViewController.swift */,
+				20DBFF31242E7E8100C0410F /* Style.swift */,
 			);
 			path = "StyleTransfer-iOS-TFlite";
 			sourceTree = "<group>";
@@ -123,6 +184,40 @@
 				204D4422242E6047003DCA67 /* Info.plist */,
 			);
 			path = "StyleTransfer-iOS-TFliteUITests";
+			sourceTree = "<group>";
+		};
+		20DBFEF8242E7C6300C0410F /* styles */ = {
+			isa = PBXGroup;
+			children = (
+				20DBFF0C242E7E0E00C0410F /* style0.jpg */,
+				20DBFF07242E7E0D00C0410F /* style1.jpg */,
+				20DBFF03242E7E0D00C0410F /* style2.jpg */,
+				20DBFF0D242E7E0E00C0410F /* style3.jpg */,
+				20DBFEFF242E7E0D00C0410F /* style4.jpg */,
+				20DBFF10242E7E0E00C0410F /* style5.jpg */,
+				20DBFF0F242E7E0E00C0410F /* style6.jpg */,
+				20DBFF04242E7E0D00C0410F /* style7.jpg */,
+				20DBFF0A242E7E0E00C0410F /* style8.jpg */,
+				20DBFF06242E7E0D00C0410F /* style9.jpg */,
+				20DBFF15242E7E0E00C0410F /* style10.jpg */,
+				20DBFF12242E7E0E00C0410F /* style11.jpg */,
+				20DBFF00242E7E0D00C0410F /* style12.jpg */,
+				20DBFF14242E7E0E00C0410F /* style13.jpg */,
+				20DBFF0B242E7E0E00C0410F /* style14.jpg */,
+				20DBFF13242E7E0E00C0410F /* style15.jpg */,
+				20DBFF16242E7E0E00C0410F /* style16.jpg */,
+				20DBFF0E242E7E0E00C0410F /* style17.jpg */,
+				20DBFF01242E7E0D00C0410F /* style18.jpg */,
+				20DBFEFD242E7E0D00C0410F /* style19.jpg */,
+				20DBFF05242E7E0D00C0410F /* style20.jpg */,
+				20DBFF02242E7E0D00C0410F /* style21.jpg */,
+				20DBFEFE242E7E0D00C0410F /* style22.jpg */,
+				20DBFF09242E7E0D00C0410F /* style23.jpg */,
+				20DBFF11242E7E0E00C0410F /* style24.jpg */,
+				20DBFF08242E7E0D00C0410F /* style25.jpg */,
+				20DBFEF9242E7C7B00C0410F /* styles_square_thumb.jpg */,
+			);
+			path = styles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,13 +288,16 @@
 				TargetAttributes = {
 					204D43FC242E6046003DCA67 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1140;
 					};
 					204D4410242E6047003DCA67 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1140;
 						TestTargetID = 204D43FC242E6046003DCA67;
 					};
 					204D441B242E6047003DCA67 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1140;
 						TestTargetID = 204D43FC242E6046003DCA67;
 					};
 				};
@@ -230,7 +328,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				204D440B242E6047003DCA67 /* LaunchScreen.storyboard in Resources */,
+				20DBFF18242E7E0E00C0410F /* style22.jpg in Resources */,
+				20DBFF22242E7E0E00C0410F /* style25.jpg in Resources */,
+				20DBFF27242E7E0E00C0410F /* style3.jpg in Resources */,
+				20DBFF19242E7E0E00C0410F /* style4.jpg in Resources */,
+				20DBFF24242E7E0E00C0410F /* style8.jpg in Resources */,
+				20DBFF1D242E7E0E00C0410F /* style2.jpg in Resources */,
+				20DBFF2A242E7E0E00C0410F /* style5.jpg in Resources */,
+				20DBFEFA242E7C7B00C0410F /* styles_square_thumb.jpg in Resources */,
+				20DBFF1F242E7E0E00C0410F /* style20.jpg in Resources */,
+				20DBFF1E242E7E0E00C0410F /* style7.jpg in Resources */,
+				20DBFF2E242E7E0E00C0410F /* style13.jpg in Resources */,
+				20DBFF2B242E7E0E00C0410F /* style24.jpg in Resources */,
+				20DBFF2F242E7E0E00C0410F /* style10.jpg in Resources */,
+				20DBFF29242E7E0E00C0410F /* style6.jpg in Resources */,
+				20DBFF23242E7E0E00C0410F /* style23.jpg in Resources */,
+				20DBFF30242E7E0E00C0410F /* style16.jpg in Resources */,
+				20DBFF1C242E7E0E00C0410F /* style21.jpg in Resources */,
+				20DBFF21242E7E0E00C0410F /* style1.jpg in Resources */,
+				20DBFF28242E7E0E00C0410F /* style17.jpg in Resources */,
+				20DBFF1B242E7E0E00C0410F /* style18.jpg in Resources */,
 				204D4408242E6047003DCA67 /* Assets.xcassets in Resources */,
+				20DBFF17242E7E0E00C0410F /* style19.jpg in Resources */,
+				20DBFF20242E7E0E00C0410F /* style9.jpg in Resources */,
+				20DBFF1A242E7E0E00C0410F /* style12.jpg in Resources */,
+				20DBFF2D242E7E0E00C0410F /* style15.jpg in Resources */,
+				20DBFF25242E7E0E00C0410F /* style14.jpg in Resources */,
+				20DBFF2C242E7E0E00C0410F /* style11.jpg in Resources */,
+				20DBFF26242E7E0E00C0410F /* style0.jpg in Resources */,
 				204D4406242E6046003DCA67 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +382,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				204D4403242E6046003DCA67 /* ViewController.swift in Sources */,
+				20DBFEFC242E7DD700C0410F /* StylePickerViewController.swift in Sources */,
 				204D4401242E6046003DCA67 /* AppDelegate.swift in Sources */,
+				20DBFF32242E7E8100C0410F /* Style.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,7 +567,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.StyleTransfer-iOS-TFlite";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -457,7 +584,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.StyleTransfer-iOS-TFlite";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -476,7 +603,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.StyleTransfer-iOS-TFliteTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StyleTransfer-iOS-TFlite.app/StyleTransfer-iOS-TFlite";
 			};
@@ -496,7 +623,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.StyleTransfer-iOS-TFliteTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StyleTransfer-iOS-TFlite.app/StyleTransfer-iOS-TFlite";
 			};
@@ -515,7 +642,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.StyleTransfer-iOS-TFliteUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "StyleTransfer-iOS-TFlite";
 			};
@@ -534,7 +661,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.StyleTransfer-iOS-TFliteUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "StyleTransfer-iOS-TFlite";
 			};
