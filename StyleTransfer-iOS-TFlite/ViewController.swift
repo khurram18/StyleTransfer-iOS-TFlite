@@ -10,7 +10,6 @@ import UIKit
 
 final class ViewController: UIViewController {
   
-private let dispatchQueue = DispatchQueue(label: "StyleTransfer-iOS-TFlite.backgroundQeue")
 private let imagePicker = UIImagePickerController()
 private var style = Style.style0
   
@@ -58,9 +57,7 @@ extension ViewController: UIImagePickerControllerDelegate, UINavigationControlle
   
 func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
   guard let pickedImage = info[.originalImage] as? UIImage else { return }
-  dispatchQueue.async {
-    self.performStyleTransfer(pickedImage)
-  }
+  performStyleTransfer(pickedImage)
 }
   
 } // extension ViewController
@@ -69,7 +66,6 @@ extension ViewController: StylePickerViewControllerDelgate {
 func didPick(_ style: Style) {
   self.style = style
   dismiss(animated: true, completion: nil)
-  dump(style)
 }
   
 } // extension ViewController

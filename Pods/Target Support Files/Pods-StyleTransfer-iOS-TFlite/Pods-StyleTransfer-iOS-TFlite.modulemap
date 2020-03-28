@@ -1,0 +1,6 @@
+framework module Pods_StyleTransfer_iOS_TFlite {
+  umbrella header "Pods-StyleTransfer-iOS-TFlite-umbrella.h"
+
+  export *
+  module * { export * }
+}

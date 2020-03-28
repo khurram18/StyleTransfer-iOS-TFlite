@@ -43,6 +43,10 @@
 		20DBFF2F242E7E0E00C0410F /* style10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DBFF15242E7E0E00C0410F /* style10.jpg */; };
 		20DBFF30242E7E0E00C0410F /* style16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20DBFF16242E7E0E00C0410F /* style16.jpg */; };
 		20DBFF32242E7E8100C0410F /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DBFF31242E7E8100C0410F /* Style.swift */; };
+		20DBFF34242E873200C0410F /* StyleTransferManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DBFF33242E873200C0410F /* StyleTransferManager.swift */; };
+		71A7E8DDB8797A3A2BDCD7CF /* Pods_StyleTransfer_iOS_TFliteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CBC4D574406A950BF4A9423 /* Pods_StyleTransfer_iOS_TFliteTests.framework */; };
+		98E1E9E2BB6B59A0FC040F71 /* Pods_StyleTransfer_iOS_TFlite_StyleTransfer_iOS_TFliteUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C5C4776550390A88395A81C /* Pods_StyleTransfer_iOS_TFlite_StyleTransfer_iOS_TFliteUITests.framework */; };
+		B21767FB25DCE596A2DC29C3 /* Pods_StyleTransfer_iOS_TFlite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC733B987428BDE1F58DD71 /* Pods_StyleTransfer_iOS_TFlite.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CBC4D574406A950BF4A9423 /* Pods_StyleTransfer_iOS_TFliteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StyleTransfer_iOS_TFliteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		204D43FD242E6046003DCA67 /* StyleTransfer-iOS-TFlite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StyleTransfer-iOS-TFlite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		204D4400242E6046003DCA67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		204D4402242E6046003DCA67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +110,15 @@
 		20DBFF15242E7E0E00C0410F /* style10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = style10.jpg; sourceTree = "<group>"; };
 		20DBFF16242E7E0E00C0410F /* style16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = style16.jpg; sourceTree = "<group>"; };
 		20DBFF31242E7E8100C0410F /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		20DBFF33242E873200C0410F /* StyleTransferManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleTransferManager.swift; sourceTree = "<group>"; };
+		2474DB69FA0869B021E0C1E6 /* Pods-StyleTransfer-iOS-TFliteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StyleTransfer-iOS-TFliteTests.release.xcconfig"; path = "Target Support Files/Pods-StyleTransfer-iOS-TFliteTests/Pods-StyleTransfer-iOS-TFliteTests.release.xcconfig"; sourceTree = "<group>"; };
+		3DB3A2C69DC7AFF201C69122 /* Pods-StyleTransfer-iOS-TFlite-StyleTransfer-iOS-TFliteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StyleTransfer-iOS-TFlite-StyleTransfer-iOS-TFliteUITests.debug.xcconfig"; path = "Target Support Files/Pods-StyleTransfer-iOS-TFlite-StyleTransfer-iOS-TFliteUITests/Pods-StyleTransfer-iOS-TFlite-StyleTransfer-iOS-TFliteUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		771DB9E2352E4A5BCA590C14 /* Pods-StyleTransfer-iOS-TFlite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StyleTransfer-iOS-TFlite.debug.xcconfig"; path = "Target Support Files/Pods-StyleTransfer-iOS-TFlite/Pods-StyleTransfer-iOS-TFlite.debug.xcconfig"; sourceTree = "<group>"; };
+		9C5C4776550390A88395A81C /* Pods_StyleTransfer_iOS_TFlite_StyleTransfer_iOS_TFliteUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StyleTransfer_iOS_TFlite_StyleTransfer_iOS_TFliteUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00A9FCFB821BA5BD1E0A193 /* Pods-StyleTransfer-iOS-TFlite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StyleTransfer-iOS-TFlite.release.xcconfig"; path = "Target Support Files/Pods-StyleTransfer-iOS-TFlite/Pods-StyleTransfer-iOS-TFlite.release.xcconfig"; sourceTree = "<group>"; };
+		C7FA9C5A8FFA21B1294C94E0 /* Pods-StyleTransfer-iOS-TFlite-StyleTransfer-iOS-TFliteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StyleTransfer-iOS-TFlite-StyleTransfer-iOS-TFliteUITests.release.xcconfig"; path = "Target Support Files/Pods-StyleTransfer-iOS-TFlite-StyleTransfer-iOS-TFliteUITests/Pods-StyleTransfer-iOS-TFlite-StyleTransfer-iOS-TFliteUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DAC733B987428BDE1F58DD71 /* Pods_StyleTransfer_iOS_TFlite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StyleTransfer_iOS_TFlite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1656060C4596807BF9AA8EF /* Pods-StyleTransfer-iOS-TFliteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StyleTransfer-iOS-TFliteTests.debug.xcconfig"; path = "Target Support Files/Pods-StyleTransfer-iOS-TFliteTests/Pods-StyleTransfer-iOS-TFliteTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B21767FB25DCE596A2DC29C3 /* Pods_StyleTransfer_iOS_TFlite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71A7E8DDB8797A3A2BDCD7CF /* Pods_StyleTransfer_iOS_TFliteTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,12 +142,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98E1E9E2BB6B59A0FC040F71 /* Pods_StyleTransfer_iOS_TFlite_StyleTransfer_iOS_TFliteUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		183E48C82009D6FC441FC9CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAC733B987428BDE1F58DD71 /* Pods_StyleTransfer_iOS_TFlite.framework */,
+				9C5C4776550390A88395A81C /* Pods_StyleTransfer_iOS_TFlite_StyleTransfer_iOS_TFliteUITests.framework */,
+				1CBC4D574406A950BF4A9423 /* Pods_StyleTransfer_iOS_TFliteTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		204D43F4242E6046003DCA67 = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +166,8 @@
 				204D4414242E6047003DCA67 /* StyleTransfer-iOS-TFliteTests */,
 				204D441F242E6047003DCA67 /* StyleTransfer-iOS-TFliteUITests */,
 				204D43FE242E6046003DCA67 /* Products */,
+				9F10945D62B7CC5A8D69FB6F /* Pods */,
+				183E48C82009D6FC441FC9CF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -164,6 +193,7 @@
 				204D440C242E6047003DCA67 /* Info.plist */,
 				20DBFEFB242E7DD700C0410F /* StylePickerViewController.swift */,
 				20DBFF31242E7E8100C0410F /* Style.swift */,
+				20DBFF33242E873200C0410F /* StyleTransferManager.swift */,
 			);
 			path = "StyleTransfer-iOS-TFlite";
 			sourceTree = "<group>";
@@ -220,6 +250,20 @@
 			path = styles;
 			sourceTree = "<group>";
 		};
+		9F10945D62B7CC5A8D69FB6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				771DB9E2352E4A5BCA590C14 /* Pods-StyleTransfer-iOS-TFlite.debug.xcconfig */,
+				A00A9FCFB821BA5BD1E0A193 /* Pods-StyleTransfer-iOS-TFlite.release.xcconfig */,
+				3DB3A2C69DC7AFF201C69122 /* Pods-StyleTransfer-iOS-TFlite-StyleTransfer-iOS-TFliteUITests.debug.xcconfig */,
+				C7FA9C5A8FFA21B1294C94E0 /* Pods-StyleTransfer-iOS-TFlite-StyleTransfer-iOS-TFliteUITests.release.xcconfig */,
+				F1656060C4596807BF9AA8EF /* Pods-StyleTransfer-iOS-TFliteTests.debug.xcconfig */,
+				2474DB69FA0869B021E0C1E6 /* Pods-StyleTransfer-iOS-TFliteTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -227,6 +271,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 204D4425242E6047003DCA67 /* Build configuration list for PBXNativeTarget "StyleTransfer-iOS-TFlite" */;
 			buildPhases = (
+				0C6D062B06848F252B2749B5 /* [CP] Check Pods Manifest.lock */,
 				204D43F9242E6046003DCA67 /* Sources */,
 				204D43FA242E6046003DCA67 /* Frameworks */,
 				204D43FB242E6046003DCA67 /* Resources */,
@@ -244,6 +289,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 204D4428242E6047003DCA67 /* Build configuration list for PBXNativeTarget "StyleTransfer-iOS-TFliteTests" */;
 			buildPhases = (
+				B3144D640E3B01EBE90CABDC /* [CP] Check Pods Manifest.lock */,
 				204D440D242E6047003DCA67 /* Sources */,
 				204D440E242E6047003DCA67 /* Frameworks */,
 				204D440F242E6047003DCA67 /* Resources */,
@@ -262,6 +308,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 204D442B242E6047003DCA67 /* Build configuration list for PBXNativeTarget "StyleTransfer-iOS-TFliteUITests" */;
 			buildPhases = (
+				E95AEFBB24CD8CDCFB75EA06 /* [CP] Check Pods Manifest.lock */,
 				204D4418242E6047003DCA67 /* Sources */,
 				204D4419242E6047003DCA67 /* Frameworks */,
 				204D441A242E6047003DCA67 /* Resources */,
@@ -376,11 +423,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C6D062B06848F252B2749B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StyleTransfer-iOS-TFlite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3144D640E3B01EBE90CABDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StyleTransfer-iOS-TFliteTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E95AEFBB24CD8CDCFB75EA06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StyleTransfer-iOS-TFlite-StyleTransfer-iOS-TFliteUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		204D43F9242E6046003DCA67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20DBFF34242E873200C0410F /* StyleTransferManager.swift in Sources */,
 				204D4403242E6046003DCA67 /* ViewController.swift in Sources */,
 				20DBFEFC242E7DD700C0410F /* StylePickerViewController.swift in Sources */,
 				204D4401242E6046003DCA67 /* AppDelegate.swift in Sources */,
@@ -557,6 +674,7 @@
 		};
 		204D4426242E6047003DCA67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 771DB9E2352E4A5BCA590C14 /* Pods-StyleTransfer-iOS-TFlite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -574,6 +692,7 @@
 		};
 		204D4427242E6047003DCA67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A00A9FCFB821BA5BD1E0A193 /* Pods-StyleTransfer-iOS-TFlite.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -591,6 +710,7 @@
 		};
 		204D4429242E6047003DCA67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1656060C4596807BF9AA8EF /* Pods-StyleTransfer-iOS-TFliteTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -611,6 +731,7 @@
 		};
 		204D442A242E6047003DCA67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2474DB69FA0869B021E0C1E6 /* Pods-StyleTransfer-iOS-TFliteTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -631,6 +752,7 @@
 		};
 		204D442C242E6047003DCA67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DB3A2C69DC7AFF201C69122 /* Pods-StyleTransfer-iOS-TFlite-StyleTransfer-iOS-TFliteUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -650,6 +772,7 @@
 		};
 		204D442D242E6047003DCA67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7FA9C5A8FFA21B1294C94E0 /* Pods-StyleTransfer-iOS-TFlite-StyleTransfer-iOS-TFliteUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
